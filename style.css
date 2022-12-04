@@ -1,0 +1,115 @@
+body{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    margin: auto;
+    padding: auto;
+}
+.formulario{
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+    width: 9cm;
+    height: 10.5cm;
+    text-align: center;
+    margin: 18px auto;
+}
+.formulario img{
+    height: 70px;
+    margin-top: 35px;
+    cursor: pointer;
+}
+input{
+    width: 6.7cm;
+    font-size: 13px;
+    text-indent: 5px;
+    position: relative;
+    margin: 3px 0;
+    border: 1px solid #dcdcdc;
+    top: 25px;
+    background-color: #fafafa;
+    outline: none;
+    height: 30px;
+}
+button{
+    margin-top: 35px;
+    background-color: #0095f6;
+    width: 6.9cm;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+}
+hr{
+    width: 6.8cm;
+    margin-top: 25px;
+}
+.fa-brands, span{
+    color: #385185;
+    padding: 0 5px;
+    font-size: 14px;
+    margin-top: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.formulario a{
+    position: relative;
+    top: 25px;
+    color: #385185;
+    font-size: 13px;
+    text-decoration: none;
+}
+.register{
+    border: 1px solid #dcdcdc;
+    width: 9cm;
+    text-align: center;
+    height: 1.7cm;
+    margin: -10px auto;
+    background-color: #fff;
+}
+.register p{
+    margin: 25px auto;
+    font-size: 14px;
+    text-decoration: none;
+}
+.register a{
+    text-decoration: none;
+    color: #0095f6;
+    font-weight: bold;
+}
+.plataformas{
+    text-align: center;
+}
+.apple, .android{
+    height:40px;
+    margin: 10px auto;
+    cursor: pointer;
+    padding: 0 2px;
+}
+.plataformas p{
+    font-size: 14px;
+    margin-top: 30px;
+}
+footer{
+    width: 30cm;
+    margin: 60px auto;
+    color: #8e8e8e;
+}
+footer ol{
+    font-size: 12px;
+    list-style: none;
+    display: inline-flex;
+}
+footer ol li{
+    margin: 0 10px;
+}
+select, small{
+    position: relative;
+    left: 460px;
+    border: none;
+    background-color: #fafafa;
+    outline: none;
+    color: #8e8e8e;
+}
