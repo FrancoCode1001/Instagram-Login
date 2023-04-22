@@ -1,115 +1,141 @@
 body{
-    font-family: sans-serif;
-    box-sizing: border-box;
-    background-color: #fafafa;
     margin: auto;
     padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.img{
+    background-image: url('https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW');
+    background-repeat: no-repeat;
+    background-size: 468.32px 634.15px;
+    height: 581.15px;
+    margin-left: 295px;
+    margin-top: 35px;
 }
 .formulario{
-    border: 1px solid #dcdcdc;
-    background-color: #fff;
-    width: 9cm;
+    border: 1px solid rgb(219, 219, 219);
+    width: 350px;
     height: 10.5cm;
+    position: relative;
+    float: right;
     text-align: center;
-    margin: 18px auto;
+    right: 335px;
+    top: -570px;
 }
 .formulario img{
-    height: 70px;
-    margin-top: 35px;
     cursor: pointer;
+    height: 65px;
+    margin-top: 35px;
 }
-input{
-    width: 6.7cm;
-    font-size: 13px;
-    text-indent: 5px;
-    position: relative;
+.formulario input{
+    background: rgb(250, 250, 250);
+    border: 1px solid rgb(219, 219, 219);
+    flex: 1 0 auto;
     margin: 3px 0;
-    border: 1px solid #dcdcdc;
-    top: 25px;
-    background-color: #fafafa;
+    width: 73%;
+    font-size: 12.5px;
+    height: 20px;
     outline: none;
-    height: 30px;
+    position: relative;
+    top: 30px;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
 }
-button{
-    margin-top: 35px;
-    background-color: #0095f6;
-    width: 6.9cm;
-    color: #fff;
-    font-size: 15px;
-    font-weight: bold;
+.formulario button{
+    background-color: rgb(0, 149, 246);
+    opacity: .7;
+    border-radius: 8px;
+    color: rgb(255,255,255);
+    margin-top: 40px;
+    height: 33px;
+    font-size: 13.5px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    height: 30px;
+    font-weight: bold;
+    width: 76%;
+}
+.formulario .index{
+    color: rgb(115, 115, 115);
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    border: none;
+    font-size: 13px;
+    width: 50px;
 }
 hr{
-    width: 6.8cm;
+    position: relative;
+    width: 76%;
+    top: 15px;
+    border: 0.5px solid rgb(219, 219, 219);
+}
+.fa-square-facebook{
+    color: #385185;
+    cursor: pointer;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
     margin-top: 25px;
 }
-.fa-brands, span{
+.formulario span{
     color: #385185;
-    padding: 0 5px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-    margin-top: 25px;
     font-weight: bold;
     cursor: pointer;
+    margin: 0 5px;
 }
-.formulario a{
-    position: relative;
-    top: 25px;
-    color: #385185;
-    font-size: 13px;
+[href="#password"]{
+    font-size: 12px;
     text-decoration: none;
+    color: #385185;
+    position: relative;
+    top: 15px;
 }
 .register{
-    border: 1px solid #dcdcdc;
-    width: 9cm;
-    text-align: center;
-    height: 1.7cm;
-    margin: -10px auto;
-    background-color: #fff;
-}
-.register p{
-    margin: 25px auto;
+    border: 1px solid rgb(219, 219, 219);
+    margin-top: 45px;
+    padding: 10px 0;
     font-size: 14px;
-    text-decoration: none;
 }
 .register a{
     text-decoration: none;
-    color: #0095f6;
     font-weight: bold;
+    color: rgb(0, 149, 246);
 }
-.plataformas{
-    text-align: center;
-}
-.apple, .android{
-    height:40px;
-    margin: 10px auto;
-    cursor: pointer;
-    padding: 0 2px;
-}
-.plataformas p{
+.apps-store{
     font-size: 14px;
-    margin-top: 30px;
+    text-align: center;
+    margin-top: -90px;
+    margin-right: 20px;
+    float: right;
+}
+.apps-store img{
+    height: 40px;
+    cursor: pointer;
+    margin: 0 2px;
 }
 footer{
-    width: 30cm;
-    margin: 60px auto;
-    color: #8e8e8e;
+    text-align: center;
+    position: absolute;
+    width: 28cm;
+    margin-top: 30px;
+    left: 140px;
+    color: rgb(115, 115, 115);
 }
-footer ol{
+ul li{
+    cursor: pointer;
+    margin: 20px 5px;
     font-size: 12px;
-    list-style: none;
     display: inline-flex;
+    list-style: none;
 }
-footer ol li{
-    margin: 0 10px;
-}
-select, small{
-    position: relative;
-    left: 460px;
+select{
     border: none;
-    background-color: #fafafa;
+    color: rgb(115, 115, 115);
     outline: none;
-    color: #8e8e8e;
+    cursor: pointer;
+    font-size: 12px;
+}
+a:hover{
+    text-decoration: underline;
 }
