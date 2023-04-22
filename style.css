@@ -136,6 +136,7 @@ select{
     cursor: pointer;
     font-size: 12px;
 }
-a:hover{
+a:hover,
+li:hover{
     text-decoration: underline;
 }
